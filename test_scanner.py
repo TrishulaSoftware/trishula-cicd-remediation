@@ -1,10 +1,11 @@
-"""
+﻿"""
 Trishula CI/CD Remediation Scanner — Test Suite
 SQA v5 [ASCENDED] Compliance: MC/DC Determinism + Bit-Perfect Persistence
 """
 import json
 import hashlib
 import sys
+sys.stdout.reconfigure(encoding='utf-8')
 import os
 sys.path.insert(0, os.path.dirname(__file__))
 from scanner import CicdScanner, PatchGenerator, VULN_DB
